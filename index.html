@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="BasedCenter — public site for BasedMarketLab and BasedCodex. View product walkthrough presentations." />
+  <title>BasedCenter — Presentations</title>
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <style>
+    :root {
+      --bg: #05080f;
+      --card: #0c1220;
+      --text: #e8eef8;
+      --muted: #8fa3c4;
+      --blue: #0052ff;
+      --cyan: #3de0ff;
+      --line: #1a2740;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+    .topbar {
+      height: 4px;
+      background: linear-gradient(90deg, var(--blue), var(--cyan));
+    }
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--cyan);
+      background: rgba(0, 82, 255, 0.12);
+      border: 1px solid rgba(0, 82, 255, 0.4);
+      border-radius: 999px;
+      padding: 6px 12px;
+      margin-bottom: 18px;
+    }
+    header {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    header img {
+      width: 56px;
+      height: 56px;
+      border-radius: 14px;
+      object-fit: cover;
+      border: 1px solid var(--line);
+    }
+    h1 {
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      line-height: 1.15;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+    .lead {
+      color: var(--muted);
+      font-size: 1.08rem;
+      margin: 0 0 32px;
+      max-width: 40rem;
+    }
+    h2 {
+      font-size: 1.05rem;
+      margin: 28px 0 14px;
+      color: #fff;
+    }
+    .grid {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 700px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      min-height: 220px;
+    }
+    .card .ico {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      object-fit: cover;
+      border: 1px solid var(--line);
+    }
+    .card h3 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+      flex: 1;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 4px;
+    }
+    a.btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.92rem;
+      border-radius: 10px;
+      padding: 10px 14px;
+      border: 1px solid transparent;
+      transition: 0.15s ease;
+    }
+    a.btn.primary {
+      background: var(--blue);
+      color: #fff;
+    }
+    a.btn.primary:hover { filter: brightness(1.1); }
+    a.btn.ghost {
+      background: transparent;
+      color: var(--text);
+      border-color: var(--line);
+    }
+    a.btn.ghost:hover {
+      border-color: var(--cyan);
+      color: var(--cyan);
+    }
+    .note {
+      margin-top: 28px;
+      padding: 16px 18px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: rgba(12, 18, 32, 0.8);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer {
+      margin-top: 40px;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar"></div>
+  <div class="wrap">
+    <div class="badge">Public website · presentations only</div>
+    <header>
+      <img src="assets/logo.png" alt="BasedCenter" width="56" height="56" />
+      <div>
+        <h1>BasedCenter</h1>
+      </div>
+    </header>
+    <p class="lead">
+      View product walkthroughs for <strong style="color:#fff">BasedMarketLab</strong> and
+      <strong style="color:#fff">BasedCodex</strong>. Open a presentation in your browser — no app install needed.
+    </p>
+
+    <h2>Presentations</h2>
+    <div class="grid">
+      <article class="card">
+        <img class="ico" src="assets/logo.png" alt="" />
+        <h3>BasedMarketLab</h3>
+        <p>How the research desk works — market marks, reports, and Base unlock flow.</p>
+        <div class="actions">
+          <a class="btn primary" href="view-marketlab.html">View presentation</a>
+          <a class="btn ghost" href="presentations/BasedMarketLab-How-It-Works.pdf" download>Download PDF</a>
+          <a class="btn ghost" href="presentations/BasedMarketLab-How-It-Works.pptx" download>PPTX</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="ico" src="assets/basedcodex-icon.png" alt="" />
+        <h3>BasedCodex</h3>
+        <p>How to use the app and how it makes money — Explore, Base, MyPage, Featured + generation fees.</p>
+        <div class="actions">
+          <a class="btn primary" href="view-codex.html">View presentation</a>
+          <a class="btn ghost" href="presentations/BasedCodex-Walkthrough.pdf" download>Download PDF</a>
+          <a class="btn ghost" href="presentations/BasedCodex-Walkthrough.pptx" download>PPTX</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="note">
+      This site is for <strong style="color:#e8eef8">viewing presentations</strong> only.
+      Product source code is private and not published here.
+    </div>
+
+    <footer>
+      BasedCenter · Not financial advice · Presentations for demo / partner review
+    </footer>
+  </div>
+</body>
+</html>
