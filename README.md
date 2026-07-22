@@ -3,7 +3,7 @@
 **Public website only** — presentations people can open in a browser.
 
 - **Live:** https://ikwo2x-ui.github.io/BasedCenter-site/
-- **Private source code:** stays in the private `BasedCenter` repo (not here)
+- **Product apps:** closed source — **not** published here
 
 ## What’s published
 
@@ -11,6 +11,11 @@
 |------|---------|
 | Home | Links to both product presentations |
 | BasedCodex walkthrough | PDF viewer + downloads |
-| BasedMarketLab how-it-works | PDF viewer + downloads |
+| BasedMarketLab how-it-works | PDF/PPTX: company research · $0.10 USDC on Base mainnet |
 
-No app source code is included.
+## What’s not published
+
+- App source code (BasedMarketLab / BasedCodex stay private)
+- API keys, wallets private keys, or server config
+
+BasedMarketLab payments are **real USDC on Base mainnet** (product is separate from this site).
