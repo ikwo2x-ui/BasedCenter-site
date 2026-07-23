@@ -3,15 +3,15 @@
 Public front door for **BasedMarketLab** + walkthrough PDFs.
 
 - **GitHub Pages:** https://ikwo2x-ui.github.io/BasedCenter-site/
-- **BasedMarketLab live app:** http://161.118.245.250:8080/  
-  ($0.10 USDC on Base mainnet — hosted on Oracle, not on GitHub)
+- **BasedMarketLab live app (HTTPS):** https://basedmarketlab-frame.vercel.app/  
+  ($0.10 USDC on Base mainnet — Vercel public URL; product source closed)
 - **Product source:** closed — not in this repo
 
 ## What’s published here
 
 | Page | Content |
 |------|---------|
-| Home | **Open live app** button + presentations |
+| Home | **Open live app** (Vercel) + presentations |
 | BasedMarketLab how-it-works | PDF / PPTX ($0.10 USDC · Base mainnet) |
 | BasedCodex walkthrough | PDF / PPTX |
 
@@ -24,7 +24,7 @@ Public front door for **BasedMarketLab** + walkthrough PDFs.
 
 ```bash
 git add -A
-git commit -m "Show live BasedMarketLab app link"
+git commit -m "Point live app to Vercel HTTPS; refresh MarketLab deck"
 git push origin main
 ```
 
