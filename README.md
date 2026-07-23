@@ -3,7 +3,7 @@
 Public front door for **BasedMarketLab** + walkthrough PDFs.
 
 - **GitHub Pages:** https://ikwo2x-ui.github.io/BasedCenter-site/
-- **BasedMarketLab live app (HTTPS):** https://basedmarketlab-frame.vercel.app/  
+- **BasedMarketLab live app (HTTPS):** https://basedcenter.vercel.app/  
   ($0.10 USDC on Base mainnet — Vercel public URL; product source closed)
 - **Product source:** closed — not in this repo
 
